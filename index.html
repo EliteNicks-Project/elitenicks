@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EliteNicks | Generador de Nombres Legendarios</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>EliteNicks | Generador de Nombres para Juegos y Nicks Legendarios</title>
+    
+    <meta name="description" content="Crea los mejores nombres para juegos en EliteNicks. Generador de nicks épicos para Valorant, Roblox, Brawl Stars y más. ¡Encuentra tu identidad gamer aquí!">
+    <meta name="keywords" content="nombres para juegos, generador de nicks, nombres para roblox, nombres para valorant, nombres para brawl stars, nicks aesthetic, nombres de clanes">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
+    
     <style>
         :root {
             --primary: #ff7e5f;
@@ -87,8 +91,6 @@
             text-align: center;
             margin-bottom: 60px;
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-            position: relative;
-            overflow: hidden;
         }
 
         #nick-display {
@@ -133,7 +135,7 @@
             border: 1px solid rgba(255,255,255,0.08);
             border-radius: 24px;
             padding: 35px 25px;
-            transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition: 0.4s;
             text-align: center;
             display: flex;
             flex-direction: column;
@@ -143,7 +145,7 @@
         .card:hover {
             background: rgba(255,255,255,0.1);
             border-color: var(--primary);
-            transform: translateY(-12px);
+            transform: translateY(-10px);
         }
 
         .card h3 {
@@ -176,6 +178,13 @@
             color: white;
         }
 
+        .seo-section {
+            margin-top: 80px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 60px;
+            text-align: center;
+        }
+
         footer {
             text-align: center;
             padding: 60px 20px;
@@ -183,15 +192,6 @@
             font-size: 0.85rem;
             border-top: 1px solid rgba(255,255,255,0.05);
             margin-top: 40px;
-        }
-
-        @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .container {
-            animation: fadeInUp 0.8s ease-out;
         }
     </style>
 </head>
@@ -221,25 +221,25 @@
     <div class="grid">
         <div class="card">
             <h3>Valorant</h3>
-            <p>Nicks competitivos y aesthetic para tu Riot ID.</p>
+            <p>Nicks competitivos y tácticos para tu Riot ID.</p>
             <a href="valorant.html" class="btn-link">Ver más</a>
         </div>
 
         <div class="card">
             <h3>Brawl Stars</h3>
-            <p>Destaca en el Showdown con nombres originales.</p>
+            <p>Nombres originales para destacar en el Showdown.</p>
             <a href="brawl.html" class="btn-link">Ver más</a>
         </div>
 
         <div class="card">
             <h3>Roblox</h3>
-            <p>Nombres únicos para Blox Fruits, Brookhaven y más.</p>
+            <p>Ideas para Blox Fruits, Brookhaven y más juegos.</p>
             <a href="roblox.html" class="btn-link">Ver más</a>
         </div>
 
         <div class="card">
             <h3>Discord</h3>
-            <p>Ideas únicas para tu perfil y tus servidores.</p>
+            <p>Nombres únicos para perfiles y servidores.</p>
             <a href="discord.html" class="btn-link">Ver más</a>
         </div>
 
@@ -249,16 +249,26 @@
             <a href="clanes.html" class="btn-link">Ver más</a>
         </div>
     </div>
+
+    <div class="seo-section">
+        <h2 style="color: var(--secondary);">¿Buscas el mejor nombre para tus juegos?</h2>
+        <p style="color: var(--text-dim); max-width: 850px; margin: 20px auto; line-height: 1.8;">
+            En <strong>EliteNicks</strong> somos expertos en crear identidades digitales únicas. Si necesitas un 
+            <em>generador de nicks</em> para destacar en <strong>Roblox</strong>, nombres competitivos para <strong>Valorant</strong> 
+            o ideas frescas para <strong>Brawl Stars</strong>, estás en el lugar correcto. Nuestra herramienta 
+            te ayuda a encontrar <strong>nombres para juegos</strong> que imponen respeto y estilo.
+        </p>
+    </div>
 </div>
 
 <footer>
-    &copy; 2026 EliteNicks | La forja de nombres para la nueva era gamer.
+    &copy; 2026 EliteNicks | El Generador de Nicks Legendarios para la nueva era gamer.
 </footer>
 
 <script>
     function generateNick() {
-        const pre = ["Shadow", "Vortex", "Rage", "Neon", "Cyber", "Void", "Zen", "Kraken", "Titan", "Spectral", "Nova", "Abyss"];
-        const post = ["Hunter", "Viper", "Soul", "Edge", "Storm", "Wolf", "King", "Ghost", "Zero", "Strike"];
+        const pre = ["Shadow", "Vortex", "Rage", "Neon", "Cyber", "Void", "Zen", "Kraken", "Titan", "Spectral", "Nova", "Abyss", "Alpha", "Luna"];
+        const post = ["Hunter", "Viper", "Soul", "Edge", "Storm", "Wolf", "King", "Ghost", "Zero", "Strike", "Flow", "Blade"];
         const randomPre = pre[Math.floor(Math.random() * pre.length)];
         const randomPost = post[Math.floor(Math.random() * post.length)];
         const num = Math.floor(Math.random() * 99);
