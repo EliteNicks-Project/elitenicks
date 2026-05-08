@@ -4,38 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nombres para Valorant | EliteNicks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; line-height: 1.6; }
-        header { background: #2c3e50; color: white; padding: 1rem; text-align: center; }
-        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h1 { color: #e67e22; }
-        .nick-list { background: #eee; padding: 15px; border-radius: 5px; font-family: monospace; font-size: 1.1rem; }
-        .back-btn { display: inline-block; margin-top: 20px; text-decoration: none; color: #2c3e50; font-weight: bold; }
+        :root { --primary: #ff4655; --secondary: #feb47b; --dark: #0f172a; }
+        body { font-family: 'Poppins', sans-serif; margin: 0; background: radial-gradient(circle at top, #1e293b, #0f172a); color: #f8fafc; min-height: 100vh; line-height: 1.6; }
+        header { padding: 2rem 1rem; text-align: center; background: rgba(0,0,0,0.2); }
+        h1 { background: linear-gradient(to right, #ff4655, #feb47b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0; }
+        .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+        .card { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 25px; margin-bottom: 25px; backdrop-filter: blur(10px); }
+        h2 { color: #ff4655; font-size: 1.5rem; margin-top: 0; }
+        .nick-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; background: rgba(0,0,0,0.2); padding: 20px; border-radius: 12px; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: #fff; }
+        .nick-item { padding: 5px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .back-btn { display: inline-block; margin-bottom: 20px; color: #ff4655; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .back-btn:hover { transform: translateX(-5px); }
+        footer { text-align: center; padding: 40px; color: #475569; font-size: 0.8rem; }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Nombres para Valorant</h1>
-</header>
-
 <div class="container">
-    <h2>Lista de Nicks Épicos</h2>
-    <p>Copia y pega estos nombres para tu Riot ID. Recuerda que puedes cambiarlos cada 30 días.</p>
-    
-    <div class="nick-list">
-        • Vøid_Hunter<br>
-        • JettMain_99<br>
-        • RadiantDream<br>
-        • SpikePlanter<br>
-        • ꧁༺ Phantøm ༻꧂<br>
-        • AceMachine<br>
-        • VandalOnly<br>
-        • ToxicSage_xD
+    <a href="index.html" class="back-btn">← Volver al Inicio</a>
+    <header>
+        <h1>Valorant Nicks</h1>
+        <p>Nicks tácticos y competitivos para tu Riot ID</p>
+    </header>
+    <div class="card">
+        <h2>🎯 Estilo Radiante (Pro)</h2>
+        <div class="nick-list">
+            <div class="nick-item">VLR_Jett</div>
+            <div class="nick-item">Ace_Hunter</div>
+            <div class="nick-item">Clutch_God</div>
+            <div class="nick-item">Shadow_Aim</div>
+            <div class="nick-item">OneTap_King</div>
+            <div class="nick-item">Radiant_Soul</div>
+        </div>
     </div>
-
-    <a href="index.html" class="back-btn">← Volver al inicio</a>
+    <div class="card">
+        <h2>🌸 Aesthetic & Minimal</h2>
+        <div class="nick-list">
+            <div class="nick-item">v i p e r</div>
+            <div class="nick-item">s a g e</div>
+            <div class="nick-item">r e y n a</div>
+            <div class="nick-item">z e n</div>
+            <div class="nick-item">v o i d</div>
+            <div class="nick-item">k a i z e n</div>
+        </div>
+    </div>
+    <footer>&copy; 2026 EliteNicks | No estamos afiliados a Riot Games.</footer>
 </div>
-
 </body>
 </html>
