@@ -3,47 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombres para Clanes y Equipos | EliteNicks</title>
+    <title>Nombres de Clanes | EliteNicks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; line-height: 1.6; }
-        header { background: #2c3e50; color: white; padding: 1rem; text-align: center; }
-        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h1 { color: #e67e22; }
-        h3 { color: #2c3e50; border-left: 5px solid #e67e22; padding-left: 10px; margin-top: 25px; }
-        .nick-list { background: #eee; padding: 15px; border-radius: 5px; font-family: monospace; font-size: 1.1rem; }
-        .back-btn { display: inline-block; margin-top: 20px; text-decoration: none; color: #2c3e50; font-weight: bold; }
+        :root { --primary: #ffd700; --secondary: #feb47b; --dark: #0f172a; }
+        body { font-family: 'Poppins', sans-serif; margin: 0; background: radial-gradient(circle at top, #1e293b, #0f172a); color: #f8fafc; min-height: 100vh; line-height: 1.6; }
+        header { padding: 2rem 1rem; text-align: center; background: rgba(0,0,0,0.2); }
+        h1 { background: linear-gradient(to right, #ffd700, #feb47b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin: 0; }
+        .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+        .card { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 25px; margin-bottom: 25px; backdrop-filter: blur(10px); }
+        h2 { color: #ffd700; font-size: 1.5rem; margin-top: 0; }
+        .nick-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; background: rgba(0,0,0,0.2); padding: 20px; border-radius: 12px; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: #fff; }
+        .nick-item { padding: 5px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .back-btn { display: inline-block; margin-bottom: 20px; color: #ffd700; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .back-btn:hover { transform: translateX(-5px); }
+        footer { text-align: center; padding: 40px; color: #475569; font-size: 0.8rem; }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Nombres para Clanes y Teams</h1>
-</header>
-
 <div class="container">
-    <h2>Lidera con un Nombre Legendario</h2>
-    <p>Ya sea para Free Fire, Clash Royale o Valorant, aquí tienes nombres que imponen respeto.</p>
-    
-    <h3>Clanes Competitivos (Tryhard)</h3>
-    <div class="nick-list">
-        • Ejecutores Alpha<br>
-        • Clan Inmortal<br>
-        • División de Élite<br>
-        • Squad Asesino<br>
-        • Black Ops Team
+    <a href="index.html" class="back-btn">← Volver al Inicio</a>
+    <header>
+        <h1>Clan Names</h1>
+        <p>Nombres legendarios para tu equipo o squad</p>
+    </header>
+    <div class="card">
+        <h2>🛡️ Squads de Élite</h2>
+        <div class="nick-list">
+            <div class="nick-item">Shadow_Legion</div>
+            <div class="nick-item">Titan_Warriors</div>
+            <div class="nick-item">Void_Squad</div>
+            <div class="nick-item">Cyber_Knights</div>
+            <div class="nick-item">Eternal_Victory</div>
+            <div class="nick-item">Rage_Clan</div>
+        </div>
     </div>
-
-    <h3>Nombres en Inglés (Pro)</h3>
-    <div class="nick-list">
-        • Overkill Squad<br>
-        • Night Hunters<br>
-        • Shadow Realm<br>
-        • Global Elites<br>
-        • Team Synergy
-    </div>
-
-    <a href="index.html" class="back-btn">← Volver al inicio</a>
+    <footer>&copy; 2026 EliteNicks</footer>
 </div>
-
 </body>
 </html>
