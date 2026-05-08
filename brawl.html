@@ -3,51 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombres para Brawl Stars | EliteNicks</title>
+    <title>Brawl Stars | EliteNicks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; line-height: 1.6; }
-        header { background: #2c3e50; color: white; padding: 1rem; text-align: center; }
-        .container { max-width: 800px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        h1 { color: #e67e22; }
-        h3 { color: #2c3e50; border-left: 5px solid #e67e22; padding-left: 10px; }
-        .nick-list { background: #eee; padding: 15px; border-radius: 5px; font-family: monospace; font-size: 1.1rem; margin-bottom: 20px; }
-        .tip-box { background: #d4edda; color: #155724; padding: 15px; border-radius: 5px; border: 1px solid #c3e6cb; }
-        .back-btn { display: inline-block; margin-top: 20px; text-decoration: none; color: #2c3e50; font-weight: bold; }
+        :root {
+            --primary: #ff7e5f;
+            --secondary: #feb47b;
+            --dark: #0f172a;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: radial-gradient(circle at top, #1e293b, #0f172a);
+            color: #f8fafc;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 2rem 1rem;
+            text-align: center;
+            background: rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 25px;
+            backdrop-filter: blur(10px);
+        }
+
+        h2 { color: #feb47b; font-size: 1.5rem; margin-top: 0; }
+        
+        .nick-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 12px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .nick-item {
+            padding: 5px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .back-btn {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #ff7e5f;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover { transform: translateX(-5px); }
+
+        footer { text-align: center; padding: 40px; color: #475569; font-size: 0.8rem; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>EliteNicks: Brawl Stars</h1>
-</header>
-
 <div class="container">
-    <h2>Nombres Pro para tus Brawlers</h2>
-    <p>En Brawl Stars, el nombre lo es todo cuando apareces en la repetición de la jugada destacada. Aquí tienes los mejores:</p>
+    <a href="index.html" class="back-btn">← Volver al Inicio</a>
     
-    <h3>Nombres con Símbolos</h3>
-    <div class="nick-list">
-        • ꧁Crow_Pro꧂<br>
-        • †_Mortis_†<br>
-        • ツ_Leon_ツ<br>
-        • [Brawler]X<br>
-        • ⚡Super_Shelly⚡
+    <header>
+        <h1>Brawl Stars Nicks</h1>
+        <p>Los mejores nombres para destacar en el Showdown</p>
+    </header>
+
+    <div class="card">
+        <h2>🔥 Nombres 'Tryhard' y Pro</h2>
+        <div class="nick-list">
+            <div class="nick-item">ツ_Leon_ツ</div>
+            <div class="nick-item">†_Mortis_†</div>
+            <div class="nick-item">Hyra_Style</div>
+            <div class="nick-item">Ghost_Brawler</div>
+            <div class="nick-item">IX_Shelly</div>
+            <div class="nick-item">Spiκe_God</div>
+        </div>
     </div>
 
-    <h3>Nombres Cortos y 'Aesthetic'</h3>
-    <div class="nick-list">
-        • Nox<br>
-        • Zero<br>
-        • Spike_Boi<br>
-        • Lunar<br>
-        • Star
+    <div class="card">
+        <h2>⚔️ Nombres para Tríos (Team)</h2>
+        <p style="font-size: 0.8rem; color: #94a3b8;">Perfectos para jugar con tus amigos y que los nombres rimen.</p>
+        <div class="nick-list">
+            <div class="nick-item">Alpha_1</div>
+            <div class="nick-item">Alpha_2</div>
+            <div class="nick-item">Alpha_3</div>
+            <div class="nick-item">Control_Alt</div>
+            <div class="nick-item">Control_Del</div>
+            <div class="nick-item">Control_Esc</div>
+        </div>
     </div>
 
-    <div class="tip-box">
-        <strong>💡 Truco de Experto:</strong> Para poner tu nombre en color, usa el código de color antes del nombre. Ejemplo: <code>&lt;c2&gt;TuNombre&lt;/c&gt;</code> para ponerlo en rojo.
+    <div class="card">
+        <h2>⭐ Estilo 'Aesthetic'</h2>
+        <div class="nick-list">
+            <div class="nick-item">l u n a r</div>
+            <div class="nick-item">v ø i d</div>
+            <div class="nick-item">z e n i t h</div>
+            <div class="nick-item">s t a r r</div>
+            <div class="nick-item">n o x</div>
+            <div class="nick-item">b e a m</div>
+        </div>
     </div>
 
-    <a href="index.html" class="back-btn">← Volver al inicio</a>
+    <footer>
+        &copy; 2026 EliteNicks | No estamos afiliados a Supercell.
+    </footer>
 </div>
 
 </body>
